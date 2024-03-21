@@ -1,0 +1,254 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+
+
+
+.main{
+   /* background-color: yellow;*/
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    /*background-color:white;*/
+    height: 65vh;
+    width:80vw ;
+    margin: 147px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 137px;
+}
+.devPic img{
+    height: 58vh;
+}
+.Hello{
+    font-size: 55px;
+    
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Fira Sans',sans-serif;
+}
+.About{
+    font-size: 40px;
+}
+.moreabout{
+    font-size: 29px;
+    margin-top: 23px;
+    font-family: 'Fira Sans',sans-serif;
+}
+.buttons{
+    margin-top: 34px;
+    
+
+    
+    
+}
+.btn{
+    padding: 7px;
+    border-radius: 20px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 19px;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0px;
+}
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+.contactform {
+    padding: 0px 34px;
+    padding-top: 144px;
+    font-family: 'Fira Sans',sans-serif; 
+    /*margin: 0px 90px;*/
+    margin: 4px 318px;
+
+}
+.contactform h1 {
+    font-family: 'Source Code Pro', monospace;
+    padding: 12px 0px;
+
+}
+.contactform form div{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0px 0px 0px;
+    padding: 4px;
+}
+#emailHelp{
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0px 5px;
+    padding: 3px 0px 0px 0px;
+
+}
+#form-check{
+    flex-direction: row;
+
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0px;
+}
+.blogItem{
+    margin: 20px;
+    font-family: 'Fira Sans',sans-serif;
+
+    
+}
+.blogContainer{
+    margin: 65px 275px;
+}
+.h1{
+    font-family: 'Fira Sans',sans-serif;
+    margin: 23px;
+}
+.p{
+    font-family: 'Source Code Pro', monospace;
+}
+.intro h2{
+    font-family: 'Fira Sans',sans-serif;
+    margin:30px 247px;
+    font-size: 67px;
+}
+.intro p{
+    font-family: 'Source Code Pro', monospace;
+    margin: 35px 252px;
+}
+.SkillContainer{
+    padding: 12px;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+    margin: 28px  243px;
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+.hundered{
+    width: 265px;
+    background-color: blueviolet;
+}
+.fifty{
+    width: 125px;
+    background-color: aqua;
+}
+.t5{
+    width: 75px;
+    background-color: yellow;
+}
+.sidebarGo{
+    transform: translate(-443px,0px );
+    position: absolute;
+
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.cross{
+    margin-left: 155px;
+    margin-top: 8px;
+}
+@media (max-width: 1615px) {
+    *{
+        /*background-color: rgb(235, 164, 164);*/
+    }
+    .devPic{
+        display: none;
+    }
+    .intro, .blogContainer,.contactform{
+        margin: 8px;
+    }
+   /* .sidebar{
+        transform: translate(-443px,0px );
+        position: absolute;
+    }*/
+    
+}
+.nav {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(96, 166, 219);
+}  
+
+    
+
+ul{
+    display: flex;
+    list-style: none;
+    margin-left: 421px;
+    margin-top: 0px;
+    margin-right: 55px;
+}
+ul li{
+    padding: 0px;
+    margin: 0px;
+    margin-left: 25px;
+    color: white;
+    font-size: 15px;
+}
+.aa{
+    margin-left: 48px;
+    margin-top: 0px;
+    color: white;
+    font-size: 40px;
+}
+.cc{
+    color: white;
+    font-size: 20px;
+    
+}
+.heading{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 66px;
+}
+.res{
+    margin-left: 535px;
+    margin-top: 93px;
+}
+.resum{
+    font-size: 50px;
+}
+
